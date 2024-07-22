@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.pagina-app {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #ffffff;
+    gap: 10px;
+    
+    img {
+        border-radius: 5px;
+    }
+    
+    .secao1 img {
+        width: 30px;
+    }
+    
+    .secao1-img-h1 {
+        display: flex;
+        align-items: center;
+        gap: 15px
+        
+    }
+
+    .secao1-img-h1 img {
+        width: 30px;
+        height: 30px;
+        border-radius: 10px
+    };
+
+    .secao1-img-h1 h1 {
+        font-size: 15px;
+    }
+
+    .info-baixo-titulo {
+        margin: 10px;
+        
+    }
+
+    .paragrafo-bolinha p{
+        text-decoration: line-through;
+    }
+
+}
