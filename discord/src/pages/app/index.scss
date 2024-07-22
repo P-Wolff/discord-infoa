@@ -6,42 +6,104 @@
 .pagina-app {
     display: flex;
     justify-content: center;
-    padding: 10px;
     background-color: #ffffff;
+    padding-top: 30px;
     gap: 10px;
     
+    a, body, div, h1, h2, h3, h4, h5, h6, html, img, li, ol, p, span, ul {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-weight: inherit;
+        font-style: inherit;
+        font-family: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+    }
+
+    div {
+        display: block;
+        unicode-bidi: isolate;
+    }
+
     img {
         border-radius: 5px;
     }
     
-    .secao1 img {
-        width: 30px;
+    .cartao-SVE {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
     }
-    
+
     .secao1-img-h1 {
         display: flex;
         align-items: center;
-        gap: 15px
-        
+        margin-bottom: 4px;
+        flex-direction: row;
     }
 
     .secao1-img-h1 img {
-        width: 30px;
         height: 30px;
-        border-radius: 10px
-    };
+        width: 30px;
+        border-radius: 8px;
+        border: none;
+        margin-right: 16px;
+    }
 
-    .secao1-img-h1 h1 {
+    .titulo-SVE {
         font-size: 15px;
+        line-height: 18px;
+        font-weight: 700;
     }
 
     .info-baixo-titulo {
-        margin: 10px;
-        
+        display: block;
+        margin-bottom: 8px;
+        font-size: 14px;
+        line-height: 18px;
     }
 
-    .paragrafo-bolinha p{
-        text-decoration: line-through;
+    .paragrafo-bolinha {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .onlines {
+        font-size: 12px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .onlines-sem-bolinha {
+        font-size: 12px;
+        line-height: 16px;
+        font-style: inherit;
+        font-family: inherit;
+        vertical-align: baseline;
+
+    }
+
+    .bolinha-separa {
+        height: 4px;
+        width: 4px;
+        border-radius: 50%;
+        margin: auto 8px;
+    }
+
+    .membros {
+        margin-right: 0;
+        font-size: 12px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+    }
+
+    .membros-lado-bolinha {
+        font-size: 12px;
+        line-height: 16px;
     }
 
 }
